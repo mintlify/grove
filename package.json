@@ -1,0 +1,24 @@
+{
+  "name": "@mintlify/grove",
+  "version": "1.0.0",
+  "description": "A universal language parser",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "publish": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mintlify/grove.git"
+  },
+  "author": "Mintlify <hi@mintlify.com> (https://mintlify.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mintlify/grove/issues"
+  },
+  "homepage": "https://github.com/mintlify/grove#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "typescript": "^4.6.3"
+  }
+}
