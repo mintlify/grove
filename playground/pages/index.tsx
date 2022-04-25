@@ -28,8 +28,6 @@ import 'prismjs/components/prism-rust';
 
 const BACKEND_ENDPOINT = process.env.NODE_ENV === 'production' ? 'https://api.mintlify.com' : 'http://localhost:5000';
 
-const ADMIN_ACCESS_KEY = 'K29JrZ2qr3VuHgYc';
-
 type LanguageOption = {
   name: string;
   grammar: Grammar;
@@ -84,7 +82,7 @@ export default function Playground() {
       code,
       languageId: language.languageId,
       context: file,
-      accessKey: ADMIN_ACCESS_KEY
+      accessKey: process.env.ACCESS_KEY
     });
 
     const end = Date.now();
