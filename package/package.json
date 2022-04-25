@@ -1,6 +1,6 @@
 {
   "name": "@mintlify/grove",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Universal AST parser built on Tree-sitter",
   "main": "index.js",
   "scripts": {
