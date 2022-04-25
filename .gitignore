@@ -1,5 +1,7 @@
 node_modules
 out
 
+# Hide generated files
 index.d.ts
+index.js
 index.js.map
