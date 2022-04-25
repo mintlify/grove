@@ -61,7 +61,7 @@ Currently Grove supports the following languages
 | Dart | `dart` |
 | Go | `go` |
 
-🚧 More languages are under construction and becomes available as Tree-sitter introduces more [available parsers](https://tree-sitter.github.io/tree-sitter/)
+🚧 More languages are under construction and grows in accordance with Tree-sitter's [available parsers](https://tree-sitter.github.io/tree-sitter/)
 
 ## More Information
 
