@@ -1,10 +1,12 @@
 {
   "name": "@mintlify/grove",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A universal language parser",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
