@@ -1,8 +1,8 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 
-function MyApp({ Component, pageProps }: AppProps) {
+function Playground({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />
 }
 
-export default MyApp
+export default Playground
