@@ -82,7 +82,7 @@ export default function Playground() {
       code,
       languageId: language.languageId,
       context: file,
-      accessKey: process.env.ACCESS_KEY
+      accessKey: 'K29JrZ2qr3VuHgYc'
     });
 
     const end = Date.now();
