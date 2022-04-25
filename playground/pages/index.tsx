@@ -124,7 +124,11 @@ export default function Playground() {
   return (
     <>
       <Head>
-        <title>Playground</title>
+        <meta charSet="utf-8" />
+        <title>Grove Playground</title>
+        <meta name="description" content="Universal ast parser built on Tree-sitter" />
+        <meta name="keywords" content="AST, Tree-sitter, Mintlify, Grove" />
+        <meta name="author" content="Mintlify" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-print-json@1.1/dist/pretty-print-json.css" />
       </Head>
       {/* Background color split screen for large screens */}
