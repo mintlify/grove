@@ -1,4 +1,4 @@
-# Grove
+# @mintlify/grove
 
 Universal AST parser built on Tree-sitter for [node](https://nodejs.org/en/)
 
