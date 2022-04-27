@@ -1,0 +1,9 @@
+/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/deps/tree_sitter-57d094e6534d5279.rmeta: /Users/hanwang/.cargo/registry/src/github.com-1ecc6299db9ec823/tree-sitter-0.20.6/binding_rust/lib.rs /Users/hanwang/.cargo/registry/src/github.com-1ecc6299db9ec823/tree-sitter-0.20.6/binding_rust/ffi.rs /Users/hanwang/.cargo/registry/src/github.com-1ecc6299db9ec823/tree-sitter-0.20.6/binding_rust/util.rs /Users/hanwang/.cargo/registry/src/github.com-1ecc6299db9ec823/tree-sitter-0.20.6/binding_rust/./bindings.rs /Users/hanwang/.cargo/registry/src/github.com-1ecc6299db9ec823/tree-sitter-0.20.6/binding_rust/../include/tree_sitter/parser.h
+
+/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/deps/tree_sitter-57d094e6534d5279.d: /Users/hanwang/.cargo/registry/src/github.com-1ecc6299db9ec823/tree-sitter-0.20.6/binding_rust/lib.rs /Users/hanwang/.cargo/registry/src/github.com-1ecc6299db9ec823/tree-sitter-0.20.6/binding_rust/ffi.rs /Users/hanwang/.cargo/registry/src/github.com-1ecc6299db9ec823/tree-sitter-0.20.6/binding_rust/util.rs /Users/hanwang/.cargo/registry/src/github.com-1ecc6299db9ec823/tree-sitter-0.20.6/binding_rust/./bindings.rs /Users/hanwang/.cargo/registry/src/github.com-1ecc6299db9ec823/tree-sitter-0.20.6/binding_rust/../include/tree_sitter/parser.h
+
+/Users/hanwang/.cargo/registry/src/github.com-1ecc6299db9ec823/tree-sitter-0.20.6/binding_rust/lib.rs:
+/Users/hanwang/.cargo/registry/src/github.com-1ecc6299db9ec823/tree-sitter-0.20.6/binding_rust/ffi.rs:
+/Users/hanwang/.cargo/registry/src/github.com-1ecc6299db9ec823/tree-sitter-0.20.6/binding_rust/util.rs:
+/Users/hanwang/.cargo/registry/src/github.com-1ecc6299db9ec823/tree-sitter-0.20.6/binding_rust/./bindings.rs:
+/Users/hanwang/.cargo/registry/src/github.com-1ecc6299db9ec823/tree-sitter-0.20.6/binding_rust/../include/tree_sitter/parser.h:

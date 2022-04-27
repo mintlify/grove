@@ -1,0 +1,195 @@
+TARGET = Some("aarch64-apple-darwin")
+OPT_LEVEL = Some("0")
+HOST = Some("aarch64-apple-darwin")
+CC_aarch64-apple-darwin = None
+CC_aarch64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_aarch64-apple-darwin = None
+CFLAGS_aarch64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = None
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "sitters/php/src" "-Wall" "-Wextra" "-o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/php/src/parser.o" "-c" "sitters/php/src/parser.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "sitters/php/src" "-Wall" "-Wextra" "-o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/php/src/scanner.o" "-c" "sitters/php/src/scanner.cc"
+cargo:warning=sitters/php/src/scanner.cc:121:5: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+cargo:warning=    auto letter = lexer->lookahead;
+cargo:warning=    ^
+cargo:warning=sitters/php/src/scanner.cc:379:51: warning: unused parameter 'p' [-Wunused-parameter]
+cargo:warning=void tree_sitter_php_external_scanner_reset(void *p) {}
+cargo:warning=                                                  ^
+cargo:warning=2 warnings generated.
+exit status: 0
+AR_aarch64-apple-darwin = None
+AR_aarch64_apple_darwin = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/libtree-sitter-php.a" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/php/src/parser.o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/php/src/scanner.o"
+exit status: 0
+running: "ar" "s" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/libtree-sitter-php.a"
+exit status: 0
+cargo:rustc-link-lib=static=tree-sitter-php
+cargo:rustc-link-search=native=/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out
+TARGET = Some("aarch64-apple-darwin")
+OPT_LEVEL = Some("0")
+HOST = Some("aarch64-apple-darwin")
+CC_aarch64-apple-darwin = None
+CC_aarch64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_aarch64-apple-darwin = None
+CFLAGS_aarch64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = None
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "sitters/java/src" "-Wall" "-Wextra" "-o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/java/src/parser.o" "-c" "sitters/java/src/parser.c"
+exit status: 0
+AR_aarch64-apple-darwin = None
+AR_aarch64_apple_darwin = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/libtree-sitter-java.a" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/java/src/parser.o"
+exit status: 0
+running: "ar" "s" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/libtree-sitter-java.a"
+exit status: 0
+cargo:rustc-link-lib=static=tree-sitter-java
+cargo:rustc-link-search=native=/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out
+TARGET = Some("aarch64-apple-darwin")
+OPT_LEVEL = Some("0")
+HOST = Some("aarch64-apple-darwin")
+CC_aarch64-apple-darwin = None
+CC_aarch64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_aarch64-apple-darwin = None
+CFLAGS_aarch64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = None
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "sitters/csharp/src" "-Wall" "-Wextra" "-o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/csharp/src/parser.o" "-c" "sitters/csharp/src/parser.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "sitters/csharp/src" "-Wall" "-Wextra" "-o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/csharp/src/scanner.o" "-c" "sitters/csharp/src/scanner.c"
+cargo:warning=sitters/csharp/src/scanner.c:9:57: warning: unused parameter 'p' [-Wunused-parameter]
+cargo:warning=void tree_sitter_c_sharp_external_scanner_destroy(void *p) {}
+cargo:warning=                                                        ^
+cargo:warning=sitters/csharp/src/scanner.c:10:55: warning: unused parameter 'p' [-Wunused-parameter]
+cargo:warning=void tree_sitter_c_sharp_external_scanner_reset(void *p) {}
+cargo:warning=                                                      ^
+cargo:warning=sitters/csharp/src/scanner.c:11:63: warning: unused parameter 'p' [-Wunused-parameter]
+cargo:warning=unsigned tree_sitter_c_sharp_external_scanner_serialize(void *p, char *buffer) { return 0; }
+cargo:warning=                                                              ^
+cargo:warning=sitters/csharp/src/scanner.c:11:72: warning: unused parameter 'buffer' [-Wunused-parameter]
+cargo:warning=unsigned tree_sitter_c_sharp_external_scanner_serialize(void *p, char *buffer) { return 0; }
+cargo:warning=                                                                       ^
+cargo:warning=sitters/csharp/src/scanner.c:12:61: warning: unused parameter 'p' [-Wunused-parameter]
+cargo:warning=void tree_sitter_c_sharp_external_scanner_deserialize(void *p, const char *b, unsigned n) {}
+cargo:warning=                                                            ^
+cargo:warning=sitters/csharp/src/scanner.c:12:76: warning: unused parameter 'b' [-Wunused-parameter]
+cargo:warning=void tree_sitter_c_sharp_external_scanner_deserialize(void *p, const char *b, unsigned n) {}
+cargo:warning=                                                                           ^
+cargo:warning=sitters/csharp/src/scanner.c:12:88: warning: unused parameter 'n' [-Wunused-parameter]
+cargo:warning=void tree_sitter_c_sharp_external_scanner_deserialize(void *p, const char *b, unsigned n) {}
+cargo:warning=                                                                                       ^
+cargo:warning=sitters/csharp/src/scanner.c:15:9: warning: unused parameter 'payload' [-Wunused-parameter]
+cargo:warning=  void *payload,
+cargo:warning=        ^
+cargo:warning=8 warnings generated.
+exit status: 0
+AR_aarch64-apple-darwin = None
+AR_aarch64_apple_darwin = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/libtree-sitter-c-sharp.a" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/csharp/src/parser.o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/csharp/src/scanner.o"
+exit status: 0
+running: "ar" "s" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/libtree-sitter-c-sharp.a"
+exit status: 0
+cargo:rustc-link-lib=static=tree-sitter-c-sharp
+cargo:rustc-link-search=native=/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out
+TARGET = Some("aarch64-apple-darwin")
+OPT_LEVEL = Some("0")
+HOST = Some("aarch64-apple-darwin")
+CC_aarch64-apple-darwin = None
+CC_aarch64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_aarch64-apple-darwin = None
+CFLAGS_aarch64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = None
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "sitters/dart/src" "-Wall" "-Wextra" "-o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/dart/src/parser.o" "-c" "sitters/dart/src/parser.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "sitters/dart/src" "-Wall" "-Wextra" "-o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/dart/src/scanner.o" "-c" "sitters/dart/src/scanner.c"
+cargo:warning=sitters/dart/src/scanner.c:14:54: warning: unused parameter 'p' [-Wunused-parameter]
+cargo:warning=void tree_sitter_dart_external_scanner_destroy(void *p) {}
+cargo:warning=                                                     ^
+cargo:warning=sitters/dart/src/scanner.c:15:52: warning: unused parameter 'p' [-Wunused-parameter]
+cargo:warning=void tree_sitter_dart_external_scanner_reset(void *p) {}
+cargo:warning=                                                   ^
+cargo:warning=sitters/dart/src/scanner.c:16:60: warning: unused parameter 'p' [-Wunused-parameter]
+cargo:warning=unsigned tree_sitter_dart_external_scanner_serialize(void *p, char *buffer) { return 0; }
+cargo:warning=                                                           ^
+cargo:warning=sitters/dart/src/scanner.c:16:69: warning: unused parameter 'buffer' [-Wunused-parameter]
+cargo:warning=unsigned tree_sitter_dart_external_scanner_serialize(void *p, char *buffer) { return 0; }
+cargo:warning=                                                                    ^
+cargo:warning=sitters/dart/src/scanner.c:17:58: warning: unused parameter 'p' [-Wunused-parameter]
+cargo:warning=void tree_sitter_dart_external_scanner_deserialize(void *p, const char *b, unsigned n) {}
+cargo:warning=                                                         ^
+cargo:warning=sitters/dart/src/scanner.c:17:73: warning: unused parameter 'b' [-Wunused-parameter]
+cargo:warning=void tree_sitter_dart_external_scanner_deserialize(void *p, const char *b, unsigned n) {}
+cargo:warning=                                                                        ^
+cargo:warning=sitters/dart/src/scanner.c:17:85: warning: unused parameter 'n' [-Wunused-parameter]
+cargo:warning=void tree_sitter_dart_external_scanner_deserialize(void *p, const char *b, unsigned n) {}
+cargo:warning=                                                                                    ^
+cargo:warning=sitters/dart/src/scanner.c:57:51: warning: unused parameter 'payload' [-Wunused-parameter]
+cargo:warning=bool tree_sitter_dart_external_scanner_scan(void *payload, TSLexer *lexer,
+cargo:warning=                                                  ^
+cargo:warning=8 warnings generated.
+exit status: 0
+AR_aarch64-apple-darwin = None
+AR_aarch64_apple_darwin = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/libtree-sitter-dart.a" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/dart/src/parser.o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/dart/src/scanner.o"
+exit status: 0
+running: "ar" "s" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/libtree-sitter-dart.a"
+exit status: 0
+cargo:rustc-link-lib=static=tree-sitter-dart
+cargo:rustc-link-search=native=/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out
+TARGET = Some("aarch64-apple-darwin")
+OPT_LEVEL = Some("0")
+HOST = Some("aarch64-apple-darwin")
+CC_aarch64-apple-darwin = None
+CC_aarch64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_aarch64-apple-darwin = None
+CFLAGS_aarch64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = None
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "sitters/ruby/src" "-Wall" "-Wextra" "-o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/ruby/src/parser.o" "-c" "sitters/ruby/src/parser.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "sitters/ruby/src" "-Wall" "-Wextra" "-o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/ruby/src/scanner.o" "-c" "sitters/ruby/src/scanner.cc"
+exit status: 0
+AR_aarch64-apple-darwin = None
+AR_aarch64_apple_darwin = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/libtree-sitter-ruby.a" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/ruby/src/parser.o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/sitters/ruby/src/scanner.o"
+exit status: 0
+running: "ar" "s" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out/libtree-sitter-ruby.a"
+exit status: 0
+cargo:rustc-link-lib=static=tree-sitter-ruby
+cargo:rustc-link-search=native=/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/parser-e77b475075c5cd45/out
