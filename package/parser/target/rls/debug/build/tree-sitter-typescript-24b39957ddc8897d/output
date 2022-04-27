@@ -37,21 +37,21 @@ HOST_CFLAGS = None
 CFLAGS = None
 CRATE_CC_NO_DEFAULTS = None
 CARGO_CFG_TARGET_FEATURE = None
-running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "./typescript/src" "-Wall" "-Wextra" "-Wno-unused-parameter" "-o" "/Users/hanwang/Desktop/mintlify/grove/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/./typescript/src/parser.o" "-c" "./typescript/src/parser.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "./typescript/src" "-Wall" "-Wextra" "-Wno-unused-parameter" "-o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/./typescript/src/parser.o" "-c" "./typescript/src/parser.c"
 exit status: 0
-running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "./typescript/src" "-Wall" "-Wextra" "-Wno-unused-parameter" "-o" "/Users/hanwang/Desktop/mintlify/grove/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/./typescript/src/scanner.o" "-c" "./typescript/src/scanner.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "./typescript/src" "-Wall" "-Wextra" "-Wno-unused-parameter" "-o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/./typescript/src/scanner.o" "-c" "./typescript/src/scanner.c"
 exit status: 0
-running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "./typescript/src" "-Wall" "-Wextra" "-Wno-unused-parameter" "-o" "/Users/hanwang/Desktop/mintlify/grove/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/./tsx/src/parser.o" "-c" "./tsx/src/parser.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "./typescript/src" "-Wall" "-Wextra" "-Wno-unused-parameter" "-o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/./tsx/src/parser.o" "-c" "./tsx/src/parser.c"
 exit status: 0
-running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "./typescript/src" "-Wall" "-Wextra" "-Wno-unused-parameter" "-o" "/Users/hanwang/Desktop/mintlify/grove/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/./tsx/src/scanner.o" "-c" "./tsx/src/scanner.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "./typescript/src" "-Wall" "-Wextra" "-Wno-unused-parameter" "-o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/./tsx/src/scanner.o" "-c" "./tsx/src/scanner.c"
 exit status: 0
 AR_aarch64-apple-darwin = None
 AR_aarch64_apple_darwin = None
 HOST_AR = None
 AR = None
-running: "ar" "cq" "/Users/hanwang/Desktop/mintlify/grove/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/libparser-scanner.a" "/Users/hanwang/Desktop/mintlify/grove/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/./typescript/src/parser.o" "/Users/hanwang/Desktop/mintlify/grove/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/./typescript/src/scanner.o" "/Users/hanwang/Desktop/mintlify/grove/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/./tsx/src/parser.o" "/Users/hanwang/Desktop/mintlify/grove/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/./tsx/src/scanner.o"
+running: "ar" "cq" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/libparser-scanner.a" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/./typescript/src/parser.o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/./typescript/src/scanner.o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/./tsx/src/parser.o" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/./tsx/src/scanner.o"
 exit status: 0
-running: "ar" "s" "/Users/hanwang/Desktop/mintlify/grove/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/libparser-scanner.a"
+running: "ar" "s" "/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out/libparser-scanner.a"
 exit status: 0
 cargo:rustc-link-lib=static=parser-scanner
-cargo:rustc-link-search=native=/Users/hanwang/Desktop/mintlify/grove/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out
+cargo:rustc-link-search=native=/Users/hanwang/Desktop/mintlify/grove/package/parser/target/rls/debug/build/tree-sitter-typescript-24b39957ddc8897d/out
