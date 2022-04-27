@@ -1,0 +1,57 @@
+cargo:rerun-if-changed=src/parser.c
+TARGET = Some("aarch64-apple-darwin")
+OPT_LEVEL = Some("0")
+HOST = Some("aarch64-apple-darwin")
+CC_aarch64-apple-darwin = None
+CC_aarch64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_aarch64-apple-darwin = None
+CFLAGS_aarch64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = None
+CC_aarch64-apple-darwin = None
+CC_aarch64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_aarch64-apple-darwin = None
+CFLAGS_aarch64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = None
+CC_aarch64-apple-darwin = None
+CC_aarch64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_aarch64-apple-darwin = None
+CFLAGS_aarch64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = None
+CC_aarch64-apple-darwin = None
+CC_aarch64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_aarch64-apple-darwin = None
+CFLAGS_aarch64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = None
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "src" "-Wall" "-Wextra" "-Wno-unused-parameter" "-Wno-trigraphs" "-o" "/Users/hanwang/Desktop/mintlify/grove/parser/target/rls/debug/build/tree-sitter-c-bcfb205d942cc706/out/src/parser.o" "-c" "src/parser.c"
+exit status: 0
+AR_aarch64-apple-darwin = None
+AR_aarch64_apple_darwin = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/Users/hanwang/Desktop/mintlify/grove/parser/target/rls/debug/build/tree-sitter-c-bcfb205d942cc706/out/libparser.a" "/Users/hanwang/Desktop/mintlify/grove/parser/target/rls/debug/build/tree-sitter-c-bcfb205d942cc706/out/src/parser.o"
+exit status: 0
+running: "ar" "s" "/Users/hanwang/Desktop/mintlify/grove/parser/target/rls/debug/build/tree-sitter-c-bcfb205d942cc706/out/libparser.a"
+exit status: 0
+cargo:rustc-link-lib=static=parser
+cargo:rustc-link-search=native=/Users/hanwang/Desktop/mintlify/grove/parser/target/rls/debug/build/tree-sitter-c-bcfb205d942cc706/out
