@@ -1,4 +1,4 @@
-target
+# target not commented out
 # index.node not commented out
 **/node_modules
 **/.DS_Store
