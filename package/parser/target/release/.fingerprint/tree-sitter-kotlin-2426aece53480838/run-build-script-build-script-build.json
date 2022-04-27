@@ -1,1 +1,0 @@
-{"rustc":12591358891955000092,"features":"","target":0,"profile":0,"path":0,"deps":[[975007697179677206,"build_script_build",false,11005949966169663818]],"local":[{"RerunIfChanged":{"output":"release/build/tree-sitter-kotlin-2426aece53480838/output","paths":["src/parser.c"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

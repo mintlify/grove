@@ -1,1 +1,0 @@
-{"rustc":12591358891955000092,"features":"","target":0,"profile":0,"path":0,"deps":[[6253021195361970515,"build_script_build",false,9905933203629788789]],"local":[{"RerunIfChanged":{"output":"release/build/tree-sitter-cpp-6333a0e08582ef60/output","paths":["src/parser.c","src/scanner.cc"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}
