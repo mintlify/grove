@@ -27,6 +27,16 @@ Installation is done using the
 $ npm install @mintlify/grove
 ```
 
+In order to use Grove, you have the build from the [Rust](https://www.rust-lang.org/) dependency setup so it properly works for your operating system
+
+```console
+$ npm install cargo-cp-artifact --save-dev
+```
+
+```console
+$ cd ./node_modules/@mintlify/grove/parser && npm run build
+```
+
 ## Usage
 
 Import the package
