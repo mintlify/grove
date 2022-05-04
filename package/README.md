@@ -37,6 +37,8 @@ $ npm install cargo-cp-artifact --save-dev
 $ cd ./node_modules/@mintlify/grove/parser && npm run build
 ```
 
+When deploying to production, make sure to run the above command during the build process
+
 ## Usage
 
 Import the package
