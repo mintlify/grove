@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/docs",
+      "destination": "https://flipt.mintlify.dev/docs"
+    },
+    {
       "source": "/docs/:match*",
       "destination": "https://flipt.mintlify.dev/docs/:match*"
     }
