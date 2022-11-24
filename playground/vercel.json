@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/docs/:match*",
-      "destination": "https://flipt.mintlify.app/:match*"
+      "destination": "https://flipt.mintlify.dev/docs/:match*"
     }
   ]
 }
